@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pract 1</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
+
+</head>
+<body>
+<main>
+    <h1 class="title">Welcome to Pract 1</h1>
+    <h1 class="title">Stack</h1>
+    <div>
+        <textarea id = "displayStack"></textarea>
+    </div>
+    <div>
+        <input id = "pushValue" value="2" />
+    </div>
+    <button onclick="PushOur()" > Push </button>
+    <button onclick="PopOur()" > Pop </button>
+    <button onclick="SizeOur()" > Size </button>
+    <button onclick="ClearOur()" > Clear </button>
+
+    <h1 class="title">Deck</h1>
+    <div>
+        <textarea id = "displayDeck"></textarea>
+    </div>
+    <div>
+        <input id = "pushValueToDeck" value="5" />
+    </div>
+    <button onclick="PushFrontOur()" > PushFront </button>
+    <button onclick="PushBackOur()" > PushBack </button>
+    <button onclick="PopFrontOur()" > PopFront </button>
+    <button onclick="PopBackOur()" > PopBack </button>
+    <button onclick="FrontOur()" > FrontOur </button>
+    <button onclick="BackOur()" > BackOur </button>
+    <button onclick="SizeOurDeck()" > Size </button>
+    <button onclick="ClearOurDeck()" > ClearDeck </button>
+
+    <h1 class="title">Queue</h1>
+    <div>
+        <textarea id = "displayQueue"></textarea>
+    </div>
+    <div>
+        <input id = "pushValueToQueue" value="9" />
+    </div>
+    <button onclick="PushToQueue()" > Push </button>
+    <button onclick="PopQueue()" > Pop </button>
+    <button onclick="FrontQueue()" > Front </button>
+    <button onclick="SizeQueue()" > Size </button>
+    <button onclick="ClearQueue()" > Clear </button>
+</main>
+    <script src="./src/scripts/stack.js"></script>
+    <script src="./src/scripts/deck.js"></script>
+    <script src="./src/scripts/queue.js"></script>
+
+</body>
+</html>
